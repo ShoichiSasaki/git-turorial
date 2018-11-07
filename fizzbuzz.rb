@@ -6,6 +6,8 @@ while i<=100 do
 		puts "Fizz\n"
 	elsif i%5==0 then
 		puts "Buzz\n"
+	elsif i%7==0 then
+		puts "Git\n"
 	else
 		puts i
 	end
